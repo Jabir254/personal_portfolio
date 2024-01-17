@@ -1,13 +1,15 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 function NavBar() {
-    return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+  return (
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary d-flex justify-content-evenly"
+    >
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Jabir Kullow</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -18,7 +20,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    )
+  );
 }
 
 export default NavBar;
