@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "./src/styles/navbar.css";
+import "../styles/navbar.css";
 
 function NavBar() {
   return (
@@ -11,7 +11,7 @@ function NavBar() {
           <Navbar.Brand href="#home">Jabir Kullow</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto links">
               <Nav.Link href="#home">Portfolio</Nav.Link>
               <Nav.Link href="#link">About</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>

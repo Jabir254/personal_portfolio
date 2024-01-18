@@ -1,0 +1,9 @@
+.navbar-top{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.links{
+    display: flex;
+    justify-content: end;
+}
